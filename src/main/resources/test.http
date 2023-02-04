@@ -1,0 +1,24 @@
+POST http://127.0.0.1:8686/person
+Content-Type: application/json
+
+{
+  "age": 18,
+  "firstName": "fatima",
+  "lastName": "majidi"
+}
+
+###
+
+GET http://127.0.0.1:8686/person
+
+###
+
+POST http://127.0.0.1:8686/person
+Content-Type: application/json
+
+{
+  "id": 1,
+  "age": 19,
+  "firstName": "fatima",
+  "lastName": "majidi roodkenary"
+}
